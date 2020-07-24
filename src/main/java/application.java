@@ -17,7 +17,7 @@ import javax.swing.JPanel;
  *
  * @author prathitaswar
  */
-public class Dope {
+public class application {
     
     private static final int WIDTH = 500;
     private static final int HEIGHT = 500;
@@ -28,7 +28,7 @@ public class Dope {
      * @param args the command line arguments
      */
     
-    Dope(){
+    application(){
         frame = new JFrame();
         frame.setTitle("QUIZ");
         frame.setSize(WIDTH,HEIGHT);
@@ -63,7 +63,7 @@ public class Dope {
     }
     public static void main(String[] args) {
         // TODO code application logic here
-        new Dope();
+        new application();
     }
     
 }
